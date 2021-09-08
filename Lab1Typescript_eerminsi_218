@@ -1,0 +1,36 @@
+Script started on 2021-09-04 11:24:23-04:00
+bash-4.4$ date
+Sat Sep  4 11:24:26 EDT 2021
+bash-4.4$ uname -a
+Linux zeus-1.vse.gmu.edu 4.18.0-305.10.2.el8_4.x86_64 #1 SMP Mon Jul 12 04:43:18 EDT 2021 x86_64 x86_64 x86_64 GNU/Linux
+bash-4.4$ pwd
+/home/eerminsi/CSC262/lab1_eerminsi_218
+bash-4.4$ ls
+lab1  lab1_eerminsi_218  lab1_eerminsi_218.c  Lab1Typescript_eerminsi_218  Makefile
+bash-4.4$ cat lab1_eerminsi_218.c
+/*
+ * Emina Ermin Sinanovic G01176900
+ * CS 262, Lab Section 218
+ * Lab 1
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	printf("Hello World!\n");
+	printf("My name is Emina\n");
+	return 0;
+}
+bash-4.4$ rm a[Klab1_eerminsi_218[K[K[K[K[K[K[K[K[K[K[K[K[K lab1_eerminsi_218
+bash-4.4$ make all
+gcc -g -Wall -o lab1_eerminsi_218 lab1_eerminsi_218.c
+bash-4.4$ ls
+lab1_eerminsi_218  lab1_eerminsi_218.c	Lab1Typescript_eerminsi_218  Makefile
+bash-4.4$ lab1_eerminsi_218
+bash: lab1_eerminsi_218: command not found
+bash-4.4$ ./lab1_eerminsi_218
+Hello World!
+My name is Emina
+bash-4.4$ exit
+
+Script done on 2021-09-04 11:26:00-04:00
